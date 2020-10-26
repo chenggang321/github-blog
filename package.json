@@ -4,7 +4,8 @@
   "description": "github pages blog",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/chenggang321/github-blog/issues"
   },
-  "homepage": "https://github.com/chenggang321/github-blog#readme"
+  "homepage": "https://github.com/chenggang321/github-blog#readme",
+  "dependencies": {
+    "vuepress": "^1.7.1"
+  }
 }
